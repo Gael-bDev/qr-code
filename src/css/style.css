@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.bloco {
+  border-radius: 1.2rem;
+  background-color: white;
+  width: 430px;
+  min-width: 350px;
+  height: 41rem;
+}
+
+.bloco img {
+  width: 90%;
+  margin: 20px;
+  border-radius: 1.2rem;
+}
+
+.titulo {
+  margin: 0 2rem;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.texto {
+  margin: 1rem 2rem;
+  color: hsl(220, 15%, 55%);
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 400;
+}
